@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Quiz App 🎯
 
 A simple and responsive Quiz Application built using **HTML**, **CSS**, and **JavaScript**.  
@@ -65,3 +66,7 @@ This project is open source and free to use. Feel free to modify and improve it.
 
 Made with ❤️ by **[Shambhu](https://www.linkedin.com/in/shambhu-sk/)**  
 [GitHub Profile](https://github.com/CodeWithShambhu/)
+=======
+# quiz-app
+• A dynamic trivia web app built with HTML, CSS, and ES6 JavaScript that fetches questions from an external API and saves high scores in Local Storage.
+>>>>>>> 47277d2076ec8976fff8c608a4d1cfdbbfe2b246
