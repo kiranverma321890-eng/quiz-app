@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Quiz App</title>
+</head>
+
+<body>
+
+  <div id="quizApp">
+
+    <h1>Quiz App</h1>
+
+    <!-- Category Selection -->
+    <div id="categoryScreen">
+      <h2>Select a Category</h2>
+      <p>Choose a topic to start your quiz.</p>
+
+      <div class="categoryButtons">
+        <button onclick="selectCategory('html')">
+          HTML
+        </button>
+
+        <button onclick="selectCategory('css')">
+          CSS
+        </button>
+
+        <button onclick="selectCategory('javascript')">
+          JavaScript
+        </button>
+      </div>
+    </div>
+
+    <!-- Quiz Section -->
+    <div id="quizBox" style="display: none;">
+
+      <!-- Timer -->
+      <div id="timer">
+        Time: 10s
+      </div>
+
+      <!-- Question and Score -->
+      <div id="score">
+        <p id="questionNumber"></p>
+        <p id="scoreNumber"></p>
+      </div>
+
+      <!-- Question -->
+      <h2 id="question">Question will appear here</h2>
+
+      <!-- Answer Options -->
+      <div id="options"></div>
+
+      <!-- Next Button -->
+      <button id="next" style="display: none;">
+        Next
+      </button>
+
+    </div>
+
+  </div>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
